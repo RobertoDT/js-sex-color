@@ -7,11 +7,11 @@ var element = document.getElementById("name");
 //colore blu per maschi, colore rosa per femmine in base al sesso inserito
 if(sesso === "maschio" || sesso === "MASCHIO" || sesso === "Maschio"){
   element.className = "blue";
-  document.getElementById("name").innerHTML = nome;
+  element.innerHTML = nome;
 }
   else if(sesso === "femmina" || sesso === "FEMMINA" || sesso === "Femmina"){
   element.className = "pink";
-  document.getElementById('name').innerHTML = nome;
+  element.innerHTML = nome;
 }
   else{
     alert("occhio hai sbagliato a scrivere!!!")
